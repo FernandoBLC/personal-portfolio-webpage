@@ -1,3 +1,198 @@
-.navbar ul li{
+/*
+font-family: 'Permanent Marker', cursive;
+font-family: 'Public Sans', sans-serif;
+*/
+img{
+    width: 100%;
+    height: auto;
+}
+
+body {
+    margin: 0;
+}
+
+#navbar ul li{
+    list-style: none;
+}
+
+#navbar a{
     text-decoration: none;
+    display: block;
+    padding: 0.5rem 1rem 0.5rem 1rem; 
+    
+}
+
+#navbar{
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right top, #2d3436, #3a4244, #475053, #555f62, #636e72);
+    width: 100%;
+}
+
+#navbar ul{
+    display: flex;
+    margin-right: 0.2rem;
+}
+
+#navbar li a{
+    text-transform: uppercase;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0;
+    color: #A3D777;
+}
+
+#navbar li a:hover{
+    color: #F9F871;
+    background: rgba(128, 128, 128, 0.726);
+}
+
+.design-welcome {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2d3436;
+    background-image: linear-gradient(to right bottom, #0a3d62, #19466a, #265072, #31597a, #3c6382);;
+    line-height: 7rem;
+}
+
+.design-welcome h1{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 5rem;
+    font-weight: 600;
+    color: white;
+    margin: 0;
+    letter-spacing: 0.4rem;
+}
+
+.design-welcome h2{
+    font-family: 'Public Sans', sans-serif;
+    font-size: 3rem;
+    font-weight: 400;
+    margin: 0;
+    color: yellowgreen;
+}
+
+img{
+    width: 15rem;
+    height: auto;
+    margin: 0 auto;
+    border: 0.1rem solid white;
+    border-radius: 50%;
+    transition: 1s;
+}
+
+img:hover{
+    border-radius: 0%;
+    border: 0rem solid black;
+}
+
+.design-projects{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2d3436;
+    background-image: linear-gradient(to right top, #00b992, #00af98, #00a59b, #009b9b, #009099);
+    line-height: 7rem;
+}
+
+.design-projects h1{
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 4rem;
+    font-weight: 300;
+    color: white;
+    margin: 0;
+    letter-spacing: 0.4rem;
+}
+
+.design-projects div{
+    padding: 3rem;
+}
+
+.project-tile {
+    display: flex;
+    flex-direction: column;
+    max-width: 18rem;
+    width: 100%;
+    line-height: 2rem;
+    border: 0.1rem solid black;
+    background: gray;
+}
+
+.project-tile h2{
+    font-family: 'Public Sans', sans-serif;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin: 0;
+    color: white;
+}
+
+.project-tile h2 a{
+    text-decoration: none;
+    color: white;
+}
+
+.project-tile h2 a:hover{
+    color: #006688;
+}
+
+.project-tile p{
+    font-family: 'Public Sans', sans-serif;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0;
+    color: black;
+}
+
+.design-contact {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2d3436;
+    background-image: linear-gradient(to right top, #3e517f, #545a8d, #6b649a, #826da5, #9a76b0);
+    line-height: 7rem;
+}
+
+.design-contact p{
+    font-family: 'Public Sans', sans-serif;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 600;
+    margin: 0;
+    color: black;
+}
+
+.design-contact a i{
+    font-size: 4rem;
+    color:rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+
+@media (min-width: 820px){
+    .design-contact p{
+        font-size: 3rem;
+    }
+
+    .design-contact{
+        line-height: 3.5rem;
+    }
+    
 }

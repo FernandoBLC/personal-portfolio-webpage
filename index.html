@@ -5,7 +5,8 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Personal Portfolio WebPage By FernandoBL(Certification freeCodeCamp)</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-
+    <!--Font style-->
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <!--Normalize css-->
     <link rel='stlysheet' type='text/css' media='screen' href='css/normalize.css'>
     <!---->
@@ -28,22 +29,22 @@
         </header>
     </section>
 
-    <div id="full-structure">
+    <div id="full-structure" class="full-structure">
 
-        <section id="welcome-section">
+        <section id="welcome-section" class="design-welcome">
             <h1 id="welcome-message">Hi, I'm Fernando</h1>
             <h2>I'm Front End Developer</h2>
-            <h2>Welcome to my Portfolio!</h2>
         </section>
 
-        <section id="projects">
-            <div id="projects-structure">
-            <h2 id="project-title">Watch my little Projects</h2>
+        <section id="projects" class="design-projects">
+            <div id="projects-structure" class="p1">
+            <h1 id="project-title">Watch my little Projects</h1>
             <div id="projects-presentation">
 
                 <div class="project-tile" id="pro1">
                     <img src="images/pro1.jpg">
-                    <h2>Surver Form (freeCodeCamp Certification)</h2>
+                    <h2><a href="https://github.com/FernandoBLC/surver-form">
+                        Surver Form (freeCodeCamp Certification)</a></h2>
                     <p>
                         This is my second little project with freeCodeCamp,
                         I create this because I practice here and learning
@@ -56,9 +57,11 @@
             </div>
         </section>
 
-        <section id="contact">
+        <section id="contact" class="design-contact">
                 <p>If you wanna talk with me contact me on GitHub</p>
-                <a href="https://github.com/FernandoBLC"><i class="fab fa-github"></i></a>
+                <a id="profile-link" href="https://github.com/FernandoBLC" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
         </section>
 
         <section id="footer-section">
